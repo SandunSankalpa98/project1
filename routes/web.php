@@ -6,6 +6,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/home', function () {
-    return ('Home');
+Route::get('/StudentSavePage', function () {
+    return view('index'); // This should return the 'index.blade.php' view
 });
